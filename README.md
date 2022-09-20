@@ -1,6 +1,7 @@
-# Requests
+## Requests
 
 **Requests** is a simple, yet elegant, HTTP library.
+
 
 ```python
 >>> import requests
@@ -25,7 +26,7 @@ Requests is one of the most downloaded Python packages today, pulling in around 
 [![Supported Versions](https://img.shields.io/pypi/pyversions/requests.svg)](https://pypi.org/project/requests)
 [![Contributors](https://img.shields.io/github/contributors/psf/requests.svg)](https://github.com/psf/requests/graphs/contributors)
 
-## Installing Requests and Supported Versions
+### Installing Requests and Supported Versions
 
 Requests is available on PyPI:
 
@@ -35,7 +36,7 @@ $ python -m pip install requests
 
 Requests officially supports Python 3.7+.
 
-## Supported Features & Best–Practices
+### Supported Features & Best–Practices
 
 Requests is ready for the demands of building robust and reliable HTTP–speaking applications, for the needs of today.
 
@@ -53,11 +54,11 @@ Requests is ready for the demands of building robust and reliable HTTP–speakin
 - Automatic honoring of `.netrc`
 - Chunked HTTP Requests
 
-## API Reference and User Guide available on [Read the Docs](https://requests.readthedocs.io)
+### API Reference and User Guide available on [Read the Docs](https://requests.readthedocs.io)
 
 [![Read the Docs](https://raw.githubusercontent.com/psf/requests/main/ext/ss.png)](https://requests.readthedocs.io)
 
-## Cloning the repository
+### Cloning the repository
 
 When cloning the Requests repository, you may need to add the `-c
 fetch.fsck.badTimezone=ignore` flag to avoid an error about a bad commit (see
